@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data
-            android:name="com.sunlines.qi.keydemo.GlideConfig"
+            android:name="com.sunlines.qi.keydemo.config.GlideConfig"
             android:value="GlideModule" />
         <meta-data
             android:name="com.bumptech.glide.integration.volley.VolleyGlideModule"
@@ -23,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".NextActivity"/>
     </application>
 
 </manifest>

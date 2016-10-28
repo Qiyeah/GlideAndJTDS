@@ -4,8 +4,13 @@ import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.sunlines.qi.utils.LoadImageUtils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -25,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ConnectTask dt = new ConnectTask();
         dt.execute();
 
-        /*alpha = (Button) findViewById(R.id.alpha);
+        alpha = (Button) findViewById(R.id.alpha);
         rotate = (Button) findViewById(R.id.rotate);
         scale = (Button) findViewById(R.id.scale);
         translate = (Button) findViewById(R.id.translate);
@@ -61,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.tween_translate);
                 mImageView.startAnimation(animation);
             }
-        });*/
+        });
 
 
 

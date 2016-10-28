@@ -20,5 +20,5 @@
   **[] $VALUES;
   public *;
 }
--keepnames class * com.sunlines.qi.keydemo.GlideConfig
+-keepnames class * com.sunlines.qi.keydemo.config.GlideConfig
 -keep class com.bumptech.glide.integration.volley.VolleyGlideModule

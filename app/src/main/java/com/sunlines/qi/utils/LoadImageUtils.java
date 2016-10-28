@@ -1,4 +1,4 @@
-package com.sunlines.qi.keydemo;
+package com.sunlines.qi.utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.sunlines.qi.keydemo.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.sunlines.qi.keydemo;
+package com.sunlines.qi.config;
 
 import android.content.Context;
 
